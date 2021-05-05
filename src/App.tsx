@@ -19,7 +19,7 @@ function App() {
 
   return (
     <Router>
-      <Link to="/">home</Link>
+      <Link to="/">homehaha</Link>
       <Link to="/about">about</Link>
       <Link to="/users">user</Link>
       <Switch>
