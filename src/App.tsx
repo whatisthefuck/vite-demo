@@ -19,9 +19,10 @@ function App() {
 
   return (
     <Router>
-      <Link to="/">homeh1aha</Link>
+      <Link to="/">home</Link>
       <Link to="/about">about</Link>
       <Link to="/users">user</Link>
+      <div>自动部署</div>
       <Switch>
         <Route path="/about">
           <About />
@@ -36,7 +37,6 @@ function App() {
           <Home />
         </Route>
       </Switch>
-
     </Router>
   )
 }
